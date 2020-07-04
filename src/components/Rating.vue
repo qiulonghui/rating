@@ -33,7 +33,7 @@ export default {
     },
     count: {
       type: [Number,String],
-      default: 6
+      default: 5
     },
     size: {
       type: String,
@@ -98,7 +98,6 @@ export default {
 <style scoped lang="scss">
 .rating {
   display: flex;
-  justify-content: center;
   .star-wrap {
     position: relative;
   }

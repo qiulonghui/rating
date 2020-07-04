@@ -91,8 +91,8 @@ Vue.use(rate)
 computed: {
   customImg() {
     return {
-      default: require('./assets/close_btn.png'),
-      active: require('./assets/close_btn_a.png')
+      default: require('./assets/img1.png'),
+      active: require('./assets/img2.png')
     }
   }
 }
