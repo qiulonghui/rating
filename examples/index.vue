@@ -11,7 +11,7 @@
     </div>
 
     <div class="container">
-      <div class="sub-title">自定义个数</div>
+      <div class="sub-title">自定义展示个数</div>
       <Rating v-model="score2" :count="6" />
     </div>
 

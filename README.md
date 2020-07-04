@@ -2,6 +2,9 @@
 
 一个简单，可高度定制化的基于 Vue 2.x 的评分组件
 
+> Rating - [Demo](https://qiulonghui.github.io/rating/)
+
+
 ## 特性
 
 - SVG icon 缩放不失真
