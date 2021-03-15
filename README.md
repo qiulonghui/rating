@@ -19,12 +19,12 @@
 
 ### npm
 
-`npm install rating` (暂时未发布)
+`npm install q-rating` 
 
 在你的 APP 中引入 Rating (es6)
 
 ```javascript
-import rate from 'rating'
+import rate from 'q-rating'
 
 Vue.use(rate)
 ```
@@ -32,7 +32,7 @@ Vue.use(rate)
 在 template 中
 
 ```html
-<rate v-modal="2" :count="5" />
+<rate v-model="2" :count="5" />
 ```
 
 ## 关于 props 的选项
@@ -46,19 +46,19 @@ Vue.use(rate)
 - `value {Number|String}`: 默认展示的分数，支持小数分数展示
 
 ```html
-<rate v-modal="4.7" />
+<rate v-model="4.7" />
 ```
 
 - `disabled {Boolean}`: 仅用于展示
 
 ```html
-<rate :count="5" v-modal="4" disabled />
+<rate :count="5" v-model="4" disabled />
 ```
 
 - `size {Boolean}`: svg icon 展示的大小 默认 40px
 
 ```html
-<rate :count="5" v-modal="4" size="60" />
+<rate :count="5" v-model="4" size="60" />
 ```
 
 - `iconid {String}`: ID SVG icon 的 id,用于显示自定义 icon
