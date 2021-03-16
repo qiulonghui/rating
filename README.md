@@ -1,8 +1,8 @@
-# Rating Component for Vue 2.x
+# q-rating Component for Vue 2.x
 
 一个简单，可高度定制化的基于 Vue 2.x 的评分组件
 
-> Rating - [Demo](https://qiulonghui.github.io/rating/)
+> q-rating - [Demo](https://qiulonghui.github.io/rating/)
 
 
 ## 特性
